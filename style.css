@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    max-width: 800px;  /* Set a maximum width for the body to center the content */
+    margin: 0 auto;    
+    font-size: 18px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; 
+}
+
+h2 {
+    margin-top: 20px;
+    color: #980000;
+    font-size: 2em; 
+    margin-bottom: 15px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 10px 0; 
+}
+
+.contact-info, .education, .experience, .skills {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #980000;
+    overflow: hidden;
+    top: 0;
+    z-index: 1000;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    height: 60px;              
+    flex-direction: row;     
+    padding-left: 20px;       
+    padding-right: 20px;      
+    left: 20px;              
+    right: 20px;              
+    width: auto;              
+    margin-bottom: 20px;
+}
+
+
+.navbar li {
+    list-style-type: none;
+    flex: 1;                  /* Let each item take equal width */
+    text-align: center;       /* Center the text inside each item */
+}
+
+.nav-items-container {
+    display: flex;            /* Make the new container a flex container */
+    width: 100%;              /* Take full width of the navbar */
+    justify-content: center;  /* Center the items horizontally */
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Attempt at separating projects more clearly */
+
+.project-item {
+    padding: 15px;
+    margin-bottom: 20px; /* Space between projects */
+    background-color: #f9f9f9; /* A very subtle light gray background */
+    border-radius: 5px; /* Rounded corners for a smoother look */
+}
+
+.project-item:nth-child(even) {
+    background-color: #f2f2f2; /* A slightly different color for alternating projects */
+}
+
+.project-title {
+    font-size: 1.4em; /* A bit larger than the default text for emphasis */
+    margin-bottom: 10px; /* Add space below the title */
+    color: #980000; /* Darker text for the title */
+}
+
+.project-description {
+    margin-left: 20px; /* Indentation for the list */
+}
+/*IMAGES*/
+
+.contact-info {
+    display: flex; /* To align the details and image side by side */
+    justify-content: space-between; /* To maximize the space between them */
+    align-items: start; /* To align the top of the details with the top of the image */
+    padding: 10px 0; /* A little padding to ensure there's space around */
+}
+
+.contact-details {
+    flex: 1; /* To ensure it occupies all available space, pushing the image to the right */
+}
+
+#profile-pic {
+    max-width: 250px; /* Adjust as needed */
+    border-radius: 50%; /* To make the image circular; optional, but can be a nice touch */
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 1000px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+}

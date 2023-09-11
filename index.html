@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nolan Top's Resume - Computer Science Student at CSU Chico. Find out more about my education, experience, and skills.">
+    <title>N. Top's Resume</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <div class="nav-items-container">   <!-- New container -->
+                <li><a href="#contact-info">Contact</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </div>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Nolan Top</h1>
+        <p>Computer Science Student - CSU Chico</p>
+    </header>
+
+    <!-- Added the ID attribute for each section to make the navigation links functional -->
+    <section id="contact-info" class="contact-info">
+        <div class="contact-details"> <!-- A wrapper around the details for styling -->
+            <!-- TODO Add email access to default mail provider -->
+            <h2>Contact Information</h2>
+            <p>Email: netop@csuchico.edu</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/nolan-top-02627b26a/" target="_blank" rel="noopener noreferrer">Nolan Top</a></p>
+            <p>GitHub: <a href="https://github.com/nolan-net" target="_blank" rel="noopener noreferrer">nolan-net</a></p>
+        </div>
+        <div class="contact-image">
+            <img src="me.jpeg" alt="Nolan Top" id="profile-pic">
+        </div>
+    </section>
+    
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>BS in Computer Science, Chico State University, 2020-2024</li>
+            <li>Data Science Certification, Chico State University, 2024</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <strong class="project-title">Sentiment Analysis - Reddit</strong>
+            <p class="project-description">Analyzed 'AITA' subreddit posts to determine patterns or correlations that might reveal the likelihood of a post being voted positively or negatively. The study aimed to understand whether there's a relationship between certain keywords or the length of posts and the final judgment.</p>
+            <p>Project Link: <a href="https://github.com/nolan-net/DataScience/tree/main/AITA_Proj" target="_blank" rel="noopener noreferrer">AITA Project</a></p>
+        </div>
+        
+    
+        <div class="project-item">
+            <strong class="project-title">Randomized Itinerary Application</strong>
+            <p class="project-description">Developed in collaboration with my team using Google's Places API, Firebase, and Flutter/Dart. The app provides users with a randomized list of destinations within a specified radius of their location. It streamlines the process of discovering new places and planning impromptu trips. Ideal for both locals and tourists seeking varied experiences.</p>
+            <p>Project Link: <a href="https://github.com/nolan-net/Random_Itinerary" target="_blank" rel="noopener noreferrer">Random Itinerary</a></p>
+        </div>
+        
+    </section>
+    
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, SQL</li>
+            <li>C++, Python, R, GoLang</li>
+            <li>AWS, Google Cloud</li>
+            <li>Firebase, Flutter</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
