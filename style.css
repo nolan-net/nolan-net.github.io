@@ -127,11 +127,17 @@ section {
     border-radius: 50%; /* To make the image circular; optional, but can be a nice touch */
 }
 
+/* Size changes for different device sizes */
 @media screen and (min-width: 1200px) {
     body {
         max-width: 1000px;
         padding-left: 40px;
         padding-right: 40px;
     }
-    
 }
+
+@media screen and (max-width: 700px) {
+    #profile-pic {
+        max-width: 200px; /* A smaller size for mobile */
+    }
+}   
